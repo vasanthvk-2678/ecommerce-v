@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon design-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--font css--->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet"/>
+    <!--font awesome--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!--glide js-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <!--animated css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+    <title>V Mart</title>
+</head>
+<body class="">
+
+    <header class="header" id="home">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1> <span>V</span> Mart </h1>
+                </a>
+                <div class="nav-menu">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1> <span>V</span> Mart </h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#latest" class="nav-link scroll-link">Latest</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>                                                
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <span><i class="fas fa-user"></i></span>
+                    <span><i class="fas fa-search"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <span><i class="fas fa-bars"></i></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="glide" id="glide1">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides glide__hero">
+                    <li class="glide__slide">
+                        <div class="banner">
+                            <div class="banner-content">
+                                <span>New Inspiration 2020</span>
+                                <h1>CLOTHING MADE FOR YOU</h1>
+                                <H3>Trending for men and women style collection</H3>
+                                <div class="buttons-group">
+                                    <button> <a href="#sp"> Shop women's</a></button>
+                                    <button> <a href="#sp">Shop men's</a> </button>
+                                </div>
+                            </div>
+                            <img src="img/banner1.jpg" class="special_01" id="bn">
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="banner">
+                            <div class="banner-content">
+                                <span>New Inspiration 2020</span>
+                                <h1>Up to 60% off</h1>
+                                <H3>Bags, watches & more under INR 599</H3>
+                                <div class="buttons-group">
+                                    <button> <a href="#new">Shop now</a> </button>
+                                </div>
+                            </div>
+                            <img src="img/banner2.jpg" class="special_02" id="bn">
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="banner">
+                            <div class="banner-content">
+                                <span>New Inspiration 2020</span>
+                                <h1>Mobiles & Accessories</h1>
+                                <H3>Best selling, top rated phones & Accessories</H3>
+                                <div class="buttons-group">
+                                    <button> <a href="#latest">Shop now</a> </button>
+                                </div>
+                            </div>
+                            <img src="img/banner3.jpg" class="special_03" id="bn">
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="banner">
+                            <div class="banner-content">
+                                <span>New Inspiration 2020</span>
+                                <h1>CLOTHING | Up to 60% off</h1>
+                                <H3>Trending for men and women style collection</H3>
+                                <div class="buttons-group">
+                                    <button> <a href="#shop">Shop now</a> </button>
+                                </div>
+                            </div>
+                            <img src="img/banner4.jpg" class="special_04" id="bn">
+                        </div>
+                    </li>
+                  </ul>
+                </div>
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                      </div>
+              </div>
+        </section>
+
+        <section class="section category">
+            <h2 class="title">Allow your style to match your ambition!</h2>
+            <div class="category-center container">
+                <div class="category-box">
+                    <img src="img/cat1.jpg" alt="">
+                    <div class="content">
+                        <h2>Shop for Men</h2>
+                        <span>155 Products</span>
+                        <a href="#sp">Shop now</a>
+                    </div>
+                </div>
+                <div class="category-box">
+                    <img src="img/cat2.jpg" alt="">
+                    <div class="content">
+                        <h2>Shop for Women</h2>
+                        <span>155 Products</span>
+                        <a href="#sp">Shop now</a>
+                    </div>
+                </div>
+                <div class="category-box">
+                    <img src="img/cat3.jpg" alt="">
+                    <div class="content">
+                        <h2>Shop for Men and Women</h2>
+                        <span>155 Products</span>
+                        <a href="#shop">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section sort-category" id="new">
+            <div class="title-container">
+                <div class="section-titles">
+                    <div class="section-title active filter-btn" data-id="trend">
+                        <span class="dot"></span>
+                            <h1 class="primary-title">Trending Products</h1>
+                    </div>
+                </div>
+                <div class="section-titles" id="sp">
+                    <div class="section-title filter-btn" data-id="special">
+                        <span class="dot"></span>
+                            <h1 class="primary-title">Special Products</h1>
+                    </div>
+                </div>
+                <div class="section-titles">
+                    <div class="section-title filter-btn" data-id="featured">
+                        <span class="dot"></span>
+                            <h1 class="primary-title">Featured Products</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="product-center container">
+                <div class="product">
+                    <div class="product-header">
+                        <img src="img/pdt1.jpeg" alt="">
+                    </div>
+                    <div class="product-footer">
+                        <h3>Mens Casual Shoes</h3>
+                    </div>
+                    <div class="ratting">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">
+                        <h4>₹350</h4>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href=""><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fas fa-heart"></i></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fas fa-sync"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--balance pdts are fetched from json-->
+            </div>
+        </section>
+
+        <section class="gallary container"> 
+            <figure class="gallary-item item-1">
+                <img src="img/grid4.jpg" alt="" class="gallary-img">
+                <div class="content">
+                    <h2>Our Popular Products</h2>
+                    <a href="#shop">View more</a>
+                </div>
+            </figure>
+
+            <figure class="gallary-item item-2">
+                <img src="img/grid1.jpg" alt="" class="gallary-img">
+                <div class="content">
+                    <h2>Winter Collection</h2>
+                </div>
+            </figure>
+
+            <figure class="gallary-item item-3">
+                <img src="img/grid2.jfif" alt="" class="gallary-img">
+                <div class="content">
+                    <h2>Summer Collection</h2>
+                </div>
+            </figure>
+
+            <figure class="gallary-item item-4">
+                <img src="img/grid3.png" alt="" class="gallary-img">
+                <div class="content">
+                    <h2>Upto to 70% OFF Spring Sale!</h2>
+                </div>
+            </figure>
+        </section>
+
+        <section class="section" id="shop">
+            <div class="title-container">
+                <div class="section-titles">
+                    <div class="section-title active filter-btn" >
+                        <span class="dot"></span>
+                            <h1 class="primary-title">All Products</h1>
+                    </div>
+                </div>
+            </div>     
+            <div class="shop-center product-center container">
+            </div>
+        </section>
+
+        <section class="section brands container">
+            <div class="glide" id="glide2">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <img src="img/brand1.png" alt="">
+                    </li>
+                    <li class="glide__slide">
+                        <img src="img/brand4.png" alt="">
+                    </li>
+                    <li class="glide__slide">
+                        <img src="img/brand3.jfif" alt="">
+                    </li>
+                    <li class="glide__slide">
+                        <img src="img/brand6.png" alt="">
+                    </li>
+                    <li class="glide__slide">
+                        <img src="img/brand5.png" alt="">
+                    </li>
+                    <li class="glide__slide">
+                        <img src="img/brand7.png" alt="">
+                    </li>
+                    <li class="glide__slide">
+                        <img src="img/brand2.png" alt="">
+                    </li>
+                    <li class="glide__slide">
+                        <img src="img/brand8.png" alt="">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        </section>
+
+        <section class="section latest-products" id="latest">
+            <div class="title-container">
+                <div class="section-titles">
+                    <div class="section-title active filter-btn" data-id="latest">
+                        <span class="dot"></span>
+                            <h1 class="primary-title">Latest Products</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="latest-center product-center container">
+            </div>
+        </section>
+
+        <section class="section recent-products" id="recent">
+            <div class="title-container">
+                <div class="section-titles">
+                    <div class="section-title active filter-btn" data-id="recent">
+                        <span class="dot"></span>
+                            <h1 class="primary-title">Recently Added products</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-center product-center container">
+            </div>
+        </section>
+
+        <section class="facility section" id="facility">
+            <div class="facility-container container">
+                <div class="facility-box">
+                    <div class="facility-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <p>FREE SHIPPING</p>
+                </div>
+                <div class="facility-box">
+                    <div class="facility-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <p>100% MONEY BACK GUARANTEE</p>
+                </div>
+                <div class="facility-box">
+                    <div class="facility-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <p>MANY PAYMENT GATEWAY</p>
+                </div>
+                <div class="facility-box">
+                    <div class="facility-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <p>24/7 ONLINE SUPPORT</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="section footer">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-center">
+              <h3>EXTRAS</h3>
+              <a href="#">Brands</a>
+              <a href="#">Gift Certificates</a>
+              <a href="#">Affiliate</a>
+              <a href="#">Specials</a>
+              <a href="#">Site Map</a>
+            </div>
+            <div class="footer-center">
+              <h3>INFORMATION</h3>
+              <a href="#">About Us</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Contact Us</a>
+              <a href="#">Site Map</a>
+            </div>
+            <div class="footer-center">
+              <h3>MY ACCOUNT</h3>
+              <a href="#">My Account</a>
+              <a href="#">Order History</a>
+              <a href="#">Wish List</a>
+              <a href="#">Returns</a>
+            </div>
+            <div class="footer-center">
+              <h3>CONTACT US</h3>
+              <div>
+                <span>
+                  <i class="fas fa-map-marker-alt"></i>
+                </span>
+                Coimbatore-south,TamilNadu
+              </div>
+              <div>
+                <span>
+                  <i class="far fa-envelope"></i>
+                </span>
+                vasanth0827@gmail.com
+              </div>
+              <div>
+                <span>
+                  <i class="fas fa-phone"></i>
+                </span>
+                9944353475
+              </div>
+              <div>
+                <span>
+                  <i class="far fa-paper-plane"></i>
+                </span>
+                Coimbatore,TamilNadu
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </footer>
+
+<!--glide js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js">
+</script>
+<!--custom js-->
+<script src="index.js"></script>
+<script src="product.js"></script>
+<script src="slider.js"></script>
+</body>
+</html>
