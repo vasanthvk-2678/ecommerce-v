@@ -1,0 +1,178 @@
+{
+  "products": [
+    {
+      "title": "boAt BassHeads 100 wired",
+      "price": "499",
+      "image": "img/pdthedset.jfif",
+      "category": "featured"
+    },
+    {
+      "title": "Men Casual Shoe",
+      "price": "499",
+      "image": "img/pdt1.jpeg",
+      "category": "trend"
+    },
+    {
+      "title": "Sony 4.1 Home Theater",
+      "price": "8,999",
+      "image": "img/pdthome.jfif",
+      "category": "featured"
+    },
+    {
+      "title": "Women's Handbag ",
+      "price": "599",
+      "image": "img/pdthandbag.jfif",
+      "category": "trend"
+    },
+    {
+      "title": "boAt Rockerz 400 headset",
+      "price": "999",
+      "image": "img/pdthedset1.jfif",
+      "category": "featured"
+    },
+    {
+      "title": "Men's Shirt",
+      "price": "399",
+      "image": "img/pdtshirt.jfif",
+      "category": "special"
+    },
+    {
+      "title": "MI powerbank",
+      "price": "699",
+      "image": "img/pdtpower.jfif",
+      "category": "latest"
+    },
+    {
+      "title": "women's fashion",
+      "price": "1,499",
+      "image": "img/pdtwomen.jfif",
+      "category": "trend"
+    },
+    {
+      "title": "Sony ps4",
+      "price": "37,999",
+      "image": "img/pdtps4.jfif",
+      "category": "trend"
+    },
+    {
+      "title": "Bharat furniture bed",
+      "price": "19,999",
+      "image": "img/pdtbed.jfif",
+      "category": "trend"
+    },
+    {
+      "title": "Sony HT-S500rf sound bar",
+      "price": "20,999",
+      "image": "img/pdtbar.jfif",
+      "category": "featured"
+    },
+    {
+      "title": "Samsung 125cm (50inch) smart tv",
+      "price": "50,990",
+      "image": "img/pdttv.jfif",
+      "category": "recent"
+    },
+    {
+      "title": "Inspiron 14 5490",
+      "price": "65,490",
+      "image": "img/pdtlap1.jfif",
+      "category": "recent"
+    },
+    {
+      "title": "Lenovo IdeaPad 330s",
+      "price": "50,000",
+      "image": "img/pdtlap2.jfif",
+      "category": "recent"
+    },
+    {
+      "title": "fastrack men's watch",
+      "price": "860",
+      "image": "img/pdtwatch.jfif",
+      "category": "trend"
+    },
+    {
+      "title": "tamil-dialog t-shirt",
+      "price": "290",
+      "image": "img/pdttshirt1.jpg",
+      "category": "trend"
+    },
+    {
+      "title": "Skybags men",
+      "price": "1,490",
+      "image": "img/pdtbag.jfif",
+      "category": "special"
+    },
+    {
+      "title": "MI smart Band",
+      "price": "2,500",
+      "image": "img/pdtsmart.jfif",
+      "category": "special"
+    },
+    {
+      "title": "tamil-dialog t-shirt",
+      "price": "280",
+      "image": "img/pdttshirt.jpeg",
+      "category": "special"
+    },
+    {
+      "title": "Asus tuf-gaming",
+      "price": "53,000",
+      "image": "img/pdtlap.jfif",
+      "category": "recent"
+    },
+    {
+      "title": "Wild Craft Wallet-men",
+      "price": "399",
+      "image": "img/pdtval.jfif",
+      "category": "special"
+    },
+    {
+      "title": "Bhart furniture center table",
+      "price": "4,599",
+      "image": "img/pdtteapoy.jpg",
+      "category": "special"
+    },
+    {
+      "title": "SandDisk SD Card",
+      "price": "599",
+      "image": "img/pdtsd.jfif",
+      "category": "recent"
+    },
+    {
+      "title": "Home Wall decorations",
+      "price": "280",
+      "image": "img/pdtwall.jfif",
+      "category": "trend"
+    },
+    {
+      "title": "Philips Trimmer men",
+      "price": "999",
+      "image": "img/pdttrimmer.jfif",
+      "category": "special"
+    },
+    {
+      "title": "Samsung m30s",
+      "price": "16,677",
+      "image": "img/pdtsamsung.jfif",
+      "category": "latest"
+    },
+    {
+      "title": "Readme Note 9pro",
+      "price": "14,999",
+      "image": "img/pdtreadme.jfif",
+      "category": "latest"
+    },
+    {
+      "title": "Oppo Reno 2f",
+      "price": "17,990",
+      "image": "img/pdtoppo.jfif",
+      "category": "latest"
+    },
+    {
+      "title": "Realme Narzo 20 pro",
+      "price": "14,999",
+      "image": "img/pdtrealme.jfif",
+      "category": "latest"
+    }
+  ]
+}
